@@ -1,0 +1,559 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+body {
+    background-image:  linear-gradient(rgb(41, 17, 5), rgb(87, 28, 10));
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    font-family: 'Courgette', cursive;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+p {
+    color: #1d0d0d;
+}
+
+.navegacao ul li {
+    list-style-type: none;
+}
+
+.sobre-loja {
+    display: inline-block;
+    background-color: #e6d8c5;
+    /* height: 132vh; */
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 2vh;
+    
+}
+
+.produto {
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+}
+
+.claro {
+    background-color: #f8f5f2;
+}
+
+.escuro {
+    background-color: #e6d8c5;
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    width: 100vw;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    header {
+        height: 8vh;
+    }
+
+    .container {
+        display: flex;
+        width: 50%;
+        float: left;
+        align-items: center;
+        height: 100%;
+        padding-left: 5%;
+        justify-content: left;
+    }
+
+    .navegacao {
+        height: 8vh;
+        position: relative;
+        display: flex;
+        right: 0;
+        width: 50%;
+        color: #ececec;
+        text-align: center;
+        align-items: center;
+        justify-content: right;
+
+    }
+
+    .navegacao ul li {
+        display: inline;
+        padding-right: 25px;
+        margin-right: 10px;
+        font-size: 1em;
+    }
+
+    .sobre-loja img, .loja-produtos img {
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5vh;
+        padding-bottom: 3vh;
+        
+    }
+
+    .sobre-loja h2 {
+        color:rgb(43, 5, 10);
+        text-align: left;
+        width: 70%;
+        margin: auto;
+        font-size: 1.5em;
+        border-bottom: solid 1px rgb(43, 5, 10);
+        padding-bottom: 11px;
+    }
+
+    .sobre-loja p {
+        width: 70%;
+        margin: auto;
+        text-align: justify;
+        padding: 2vh 0;
+        font-size: 1em;
+
+    }
+
+    .title {
+        clear: both;
+        color: #fff;
+        border-bottom: solid 1px rgb(43, 5, 10);
+        text-align: center;
+        height: 10vh;
+        padding-left: 15%;
+        padding-right: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .loja-produtos {
+        margin:auto;
+        width: 100%;
+    }
+
+    .produtos {
+        width: 70vw;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .produto {
+        width: 25%;
+        float: right;
+        height: 450px;
+        position: relative;
+    }
+
+    .loja-produtos h2 {
+        font-size: 1.5em;
+        display: absolute;
+    }
+
+    .loja-produtos h3 {
+        display: flex;
+        text-align: left;
+        margin: auto;
+        width: 70%;
+        font-size: 1em;
+    }
+
+    .loja-produtos p {
+        display: flex;
+        text-align: justify;
+        margin: auto;
+        width: 70%;
+        font-size: 1em;
+        padding: 2vh 0;
+        height: 89px;
+        overflow: hidden;
+        
+
+    }
+
+    .center-button {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: auto;
+        position: relative;
+        padding-bottom: 15px;
+        bottom: 0;
+
+
+    }
+
+    .add-button {
+        background-color: rgb(100, 31, 4);
+        text-decoration: none;
+        border: none;
+        padding: 1vh;
+        cursor: pointer;
+        margin-top: auto;
+        
+    }
+    .center-button button {
+        color: rgb(255, 255, 255);
+        font-size: 0.9em;
+    }
+
+
+
+    .title {
+        clear: both;
+        color: #fff;
+        font-size: 2em !important;
+        text-align: center;
+        background-color: rgb(41, 17, 5);
+        height: 6vw;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+
+    .read-more {
+        margin: auto;
+        text-align: right;
+        width: 70%;
+        font-size: 0.8em;
+        padding: 2vh 0;
+
+    }
+
+    
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+    header {
+        height: 10vh;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .container {
+        display: flex;
+        width: 50%;
+        float: left;
+        align-items: center;
+        height: 100%;
+        padding-left: 5%;
+        justify-content: left;
+    }
+
+    .navegacao {
+        height: 10vh;
+        position: relative;
+        display: flex;
+        right: 0;
+        width: 50%;
+        color: #ececec;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .navegacao li {
+        display: inline-block;
+        padding: 6px;
+        font-size: 1em;
+    }
+
+    .sobre-loja img, .loja-produtos img {
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5vh;
+        padding-bottom: 3vh;
+        
+    }
+
+    .sobre-loja h2 {
+        color:rgb(43, 5, 10);
+        text-align: left;
+        width: 70%;
+        margin: auto;
+        font-size: 1.5em;
+        border-bottom: solid 1px rgb(43, 5, 10);
+        padding-bottom: 11px;
+    }
+
+    .sobre-loja p {
+        width: 70%;
+        margin: auto;
+        text-align: justify;
+        padding: 2vh 0;
+        font-size: 0.8em;
+
+    }
+
+
+    .title {
+        clear: both;
+        color: #fff;
+        border-bottom: solid 1px rgb(43, 5, 10);
+        text-align: center;
+        height: 10vh;
+        padding-left: 15%;
+        padding-right: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .loja-produtos {
+        margin:auto;
+        width: 100%;
+    }
+
+    .produtos {
+        width: 100%;
+        position: relative;
+    }
+
+    .produto {
+        width:33.3%;
+        float: right;
+        height: 47vh;
+        position: relative;
+    }
+
+    .loja-produtos h2 {
+        font-size: 1.5em;
+        display: absolute;
+    }
+
+    .loja-produtos h3 {
+        display: flex;
+        text-align: left;
+        margin: auto;
+        width: 70%;
+        font-size: 0.8em;
+    }
+
+    .loja-produtos p {
+        display: flex;
+        text-align: justify;
+        margin: auto;
+        width: 70%;
+        font-size: 0.5em;
+        padding: 2vh 0;
+        height: 80px;
+        overflow: hidden;
+        
+
+    }
+
+    .center-button {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: auto;
+        position: relative;
+        padding-bottom: 15px;
+        bottom: 0;
+
+
+    }
+
+    .add-button {
+        background-color: rgb(100, 31, 4);
+        text-decoration: none;
+        border: none;
+        padding: 1vh;
+        cursor: pointer;
+        margin-top: auto;
+        
+    }
+    .center-button button {
+        color: rgb(255, 255, 255);
+        font-size: 0.6em;
+    }
+
+
+
+    .title {
+        clear: both;
+        color: #fff;
+        font-size: 3em !important;
+        text-align: center;
+        background-color: rgb(41, 17, 5);
+        height: 15vw;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clearfix {
+        clear: both;
+    }
+
+    .read-more {
+        margin: auto;
+        text-align: right;
+        width: 70%;
+        font-size: 0.5em;
+        padding: 2vh 0;
+
+    }
+
+    .gobstopper {
+        display: none;
+    }
+
+
+
+    
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+    header {
+        height: 10vh;
+    }
+
+    .container {
+        display: flex;
+        width: 50%;
+        float: left;
+        align-items: center;
+        height: 100%;
+        padding-left: 5%;
+        justify-content: center;
+    }
+
+    .navegacao {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        float: left;
+        color: #ececec;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    
+
+    .sobre-loja img, .loja-produtos img {
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5vh;
+        padding-bottom: 3vh;
+        
+    }
+
+    .sobre-loja h2 {
+        color:rgb(43, 5, 10);
+        text-align: center;
+    }
+
+    .sobre-loja p {
+        width: 70%;
+        text-align: justify;
+        margin: auto;
+        padding: 2vh 0;
+
+    }
+
+
+    
+
+    .clearfix {
+        clear: both;
+    }
+
+    .title {
+        clear: both;
+        color: #fff;
+        text-align: center;
+        background-color: rgb(41, 17, 5);
+        height: 15vw;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title h2 {
+        vertical-align: middle;
+    }
+
+    .loja-produtos {
+        background-color: #e6d8c5;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .loja-produtos h3 {
+        display: flex;
+        text-align: center;
+        padding-left: 15vw;
+        padding-top: 5px;
+    }
+
+    .loja-produtos p {
+        padding: 2vh 5vh 10vw 15vw;
+        text-align: justify;
+        width: 90%;
+    }
+
+    .center-button {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .add-button {
+        background-color: rgb(100, 31, 4);
+        text-decoration: none;
+        border: none;
+        padding: 1vh;
+        cursor: pointer;
+    }
+
+    .center-button button {
+        color: rgb(255, 255, 255);
+    }
+
+    .read-more {
+        display: none;
+    }
+
+}
+    
+    
+    
